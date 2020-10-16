@@ -1,0 +1,9 @@
+package Inheritance;
+
+public class ClassD {
+	
+	public void newTown() {
+		System.out.println("Asho kut kut kheli");
+	}
+
+}

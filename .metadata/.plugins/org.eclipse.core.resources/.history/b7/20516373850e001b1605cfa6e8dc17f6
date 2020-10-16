@@ -1,0 +1,17 @@
+package JavaClass;
+
+public class TestHouse {
+
+	public static void main(String[] args) {
+		
+		House house = new House();
+		
+		System.out.println(house.bathRoom);
+		System.out.println(house.bedRoom);
+		System.out.println(house.houseName);
+		
+		house.kitchen(2);
+		house.livingRoom();
+	}
+
+}

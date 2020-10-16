@@ -1,0 +1,15 @@
+package Inheritance;
+
+public class TestFamily {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Father f = new Father();
+		
+		f.methodA();
+		f.methodB();
+
+	}
+
+}
