@@ -2,8 +2,8 @@ package Inheritance;
 
 public class ClassA {
 	
-	public void hasibPagla() {
-		System.out.println("Hasib Paglar lungi khola");
+	public void hasib() {
+		System.out.println("Hasib is a very good boy");
 	}
 
 }

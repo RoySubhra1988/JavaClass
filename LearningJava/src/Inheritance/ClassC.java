@@ -2,9 +2,10 @@ package Inheritance;
 
 public class ClassC extends ClassA {
 	
-	public void tonuPagla() {
+	public void tonu() {
 			
-		System.out.println("Tonu ar hasib pagla Alom biri tane");
+		System.out.println("Tonu and Hasib doing some Homework");
 	}
+
 
 }

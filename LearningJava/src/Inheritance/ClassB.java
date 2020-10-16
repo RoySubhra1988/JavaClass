@@ -2,8 +2,8 @@ package Inheritance;
 
 public class ClassB extends ClassA {
 	
-	public void alomBiri() {
-		System.out.println("Alom biri kora beshi");
+	public void alom() {
+		System.out.println("Alom is taking a new class");
 	}
 
 }

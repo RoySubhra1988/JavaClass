@@ -7,16 +7,16 @@ public class TestClass {
 
 		ClassB b = new ClassB();
 		
-		b.hasib();
-		b.alom();
+		b.hasibPagla();
+		b.alomBiri();
 		
 		ClassC c = new ClassC();
 		
-		c.hasib();
-		c.tonu();
+		c.hasibPagla();
+		c.tonuPagla();
 		
 		ClassD d = new ClassD();
-		d.hasib();
+		d.hasibPagla();
 		d.newTown();
 
 	}
