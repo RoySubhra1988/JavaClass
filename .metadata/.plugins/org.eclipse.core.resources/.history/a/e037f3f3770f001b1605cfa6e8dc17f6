@@ -1,0 +1,29 @@
+package StringMethods;
+
+public class DifferentStringMethodsInJava {
+
+	public static void main(String[] args) {
+		
+		String s = "Welcome";
+		
+		System.out.println(s.length()); // how to find number of characters
+		
+		//Concatenation
+		
+		String s1 = "Welcome to my ";
+		String s2 = "Class";
+				
+		System.out.println(s1+s2); // one way to concat two String
+		
+		System.out.println(s1.concat(s2));// Using concat() method
+		
+		//equals() method
+		
+		String s3 = "WELCOME";
+		String s4 = "welcome";
+		
+		System.out.println(s3.equals(s4));
+		System.out.println(s3.equalsIgnoreCase(s4));
+	}
+
+}
