@@ -1,0 +1,24 @@
+package Polymorphism;
+
+public class TestOverriding {
+
+	public static void main(String[] args) {
+		
+		
+		Overriding2 obj = new Overriding2();
+		
+	
+			obj.price();
+			
+			Calculator c = new Calculator();
+			
+			c.CalcArea(2, 3);
+			c.CalcArea(5, 7, 9);
+			c.CalcArea(1.2, 4, 6, 8);
+			c.CalcArea(2, 3, 4, 5);
+			
+			
+			
+	}
+
+}

@@ -39,7 +39,7 @@ public class DifferentStringMethodsInJava {
 		//Replace
 		
 		System.out.println(s3.replace('E', 'A')); // WALCOMA
-		System.out.println(s3.replace("COME", "KOME"));
+		System.out.println(s3.replace("COME", "KOME")); //WELKOME
 		
 		
 	}

@@ -24,11 +24,11 @@ public class TwoDimensionalArray {
 		a[3][2] = 130;
 		
 		//Classic for loop
-		for(int i=0; i<=3;i++) {
+		for(int row=0; row<a.length;row++) {
 			
-			for(int j=0; j<=2; j++) {
+			for(int col=0; col<a[0].length; col++) {
 				
-				System.out.print(a[i][j] + " ");
+				System.out.print(a[row][col] + " ");
 				
 			}
 			System.out.println();
@@ -57,11 +57,11 @@ public class TwoDimensionalArray {
 		
 		
 		//Classic for loop
-				for(int i=0; i<=1;i++) {
+				for(int row=0; row<b.length;row++) {
 					
-					for(int j=0; j<=2; j++) {
+					for(int col=0; col<b[0].length; col++) {
 						
-						System.out.print(b[i][j] + " ");
+						System.out.print(b[row][col] + " ");
 						
 					}
 					System.out.println();

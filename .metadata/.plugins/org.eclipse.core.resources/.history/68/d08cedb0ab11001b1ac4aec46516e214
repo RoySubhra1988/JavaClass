@@ -1,0 +1,25 @@
+package CallByValueCallByReference;
+
+public class CallByValAndCallByRef {
+
+	public static void main(String[] args) {
+		
+
+		CallByValAndCallByRef obj = new CallByValAndCallByRef();
+		int x = 10;
+		int y = 20;
+		
+		System.out.println(obj.testSum(x, y));
+		
+
+	}
+	
+	public int testSum(int a, int b) {
+		
+		
+		int c= a+b;
+		
+		return c;
+	}
+
+}
