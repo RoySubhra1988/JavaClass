@@ -1,0 +1,25 @@
+package StringMethods;
+
+public class StringConcat {
+
+	public static void main(String[] args) {
+		
+
+		/*String a = "ALOM";
+		int b = 20;
+		int c = 30;
+		
+		System.out.println(b+c); // 50 
+		System.out.println(b+c+a);// 50ALOM
+		System.out.println(a+b+c);//ALOM2030*/
+		
+		//Post Increment
+		
+		int d = 1;
+		int e = d++;
+		System.out.println("The Value of d : "+ d); // 1 alom,  hasib
+		System.out.println("The Value of e : "+ e); // 2 aolm, hasib
+
+	}
+
+}

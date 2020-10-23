@@ -7,12 +7,12 @@ public class DataTypeConversion {
 		
 		String x = "100";
 		
-		System.out.println(x+20);
+		System.out.println(x+20); // 10020
 		
 		// Data Conversion String to int
 		
 		int i = Integer.parseInt(x);
-		System.out.println(i+20);
+		System.out.println(i+20); // 120
 		
 		//String to double conversion
 		

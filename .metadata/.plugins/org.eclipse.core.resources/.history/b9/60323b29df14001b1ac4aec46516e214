@@ -1,0 +1,30 @@
+package arrayListConcept;
+
+import java.util.ArrayList;
+
+public class ArrayListMethods {
+
+	public static void main(String[] args) {
+		
+ArrayList <String> s1 = new ArrayList<String>();
+
+s1.add("Trump");
+s1.add("Biden");
+s1.add("Alom");
+s1.add("Subhra");
+s1.add("Hasib");
+
+ArrayList <String> s2 = new ArrayList<String>();
+
+s2.add("Chicken");
+s2.add("Lamb");
+
+//addAll() Method
+
+s1.addAll(s2);
+System.out.println(s1);
+
+
+	}
+
+}

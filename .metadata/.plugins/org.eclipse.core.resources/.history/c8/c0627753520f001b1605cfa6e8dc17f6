@@ -1,9 +1,0 @@
-package Inheritance;
-
-public class GrandSon {
-	
-	public void methodD() {
-		System.out.println("Grandson is a new born baby");
-	}
-
-}

@@ -1,0 +1,18 @@
+package StringMethods;
+
+public class StringConcat {
+
+	public static void main(String[] args) {
+		
+
+		String a = "ALOM";
+		int b = 20;
+		int c = 30;
+		
+		System.out.println(b+c); // 50 
+		System.out.print(b+c+a);// 50ALOM
+		System.out.println(a+b+c);//ALOM2030
+
+	}
+
+}
