@@ -1,8 +1,6 @@
 package arrayListConcept;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 
 public class ArrayListMethods {
 
@@ -59,54 +57,6 @@ System.out.println(s1.indexOf("Hasib")>0);
 System.out.println(s1.indexOf("Hasib"));
 
 System.out.println(s1.lastIndexOf("Trump"));
-
-System.out.println(s1);
-
-s1.remove(6);
-System.out.println(s1);
-
-s1.remove("Trump");
-System.out.println(s1);
-
-s1.remove("Trump");
-System.out.println(s1);
-
-// How to Find the Even or odd numbers from the Given Number
-
-ArrayList<Integer> var = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
-
-var.removeIf(num -> num%2==0);
-System.out.println(var);
-
-//RetainAll method
-
-System.out.println(s1);
-System.out.println(s1.size());
-
-s1.retainAll(Collections.singleton("Hasib"));
-
-
-System.out.println(s1);
-System.out.println(s1.size());
-
-// How to create the sublist from an arraylist
-
-ArrayList<Integer> number = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
-
-ArrayList<Integer> subList = new ArrayList<Integer>(number.subList(3, 9));
-
-System.out.println(subList);
-
-//How to convert Arraylist to single dimensional Array
-
-ArrayList<Integer> numberList = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
-
-
-Object arr [] = numberList.toArray();
-
-for (Object o:arr) {
-	System.out.println((int) o);
-}
 
 
 	}

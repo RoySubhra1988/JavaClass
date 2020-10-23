@@ -105,7 +105,7 @@ ArrayList<Integer> numberList = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6
 Object arr [] = numberList.toArray();
 
 for (Object o:arr) {
-	System.out.println((int) o);
+	System.out.println(o);
 }
 
 
